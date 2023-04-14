@@ -8,6 +8,9 @@ html, body {
     font-family: Helvetica, sans-serif;
     font-size: 22px;
 }
+img {
+    opacity: 0.9;
+}
 
 /*NAVIGATION BAR*/
 header {
@@ -17,6 +20,8 @@ header {
 
     position: fixed;
     top: 0;
+
+    z-index: 1;
 
     padding: 0 10px 0 10px;
 
@@ -66,4 +71,48 @@ header img {
 .our-mission * {
     margin: 15px;
     opacity: 0.9;
+}
+
+/*SECTION 2*/
+.just-center {
+    display: flex;
+    justify-content: center;
+}
+#section2 {
+    width: 1000px;
+
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+}
+#section2 h2 {
+    flex: 1 1 100%;
+    margin: 50px 0 0 0;
+
+    opacity: 0.9;
+    font-family: Helvetica, sans-serif;
+}
+#section2 h4 {
+    flex: 1 1 100%;
+    margin: 20px; 
+    margin-top: 0;
+
+    opacity: 0.9;
+    font-family: Helvetica, sans-serif;
+}
+#section2 div {
+    flex: 0 1 30%;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+#section2 div img {
+    height: 200px;
+    width: 300px;
 }
