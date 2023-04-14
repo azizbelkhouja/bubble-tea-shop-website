@@ -2,7 +2,14 @@ html, body {
     margin: 0;
     padding: 0;
     background-color: black;
+    text-align: center;
+    color: seashell;
+    opacity: 0.9;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
 }
+
+/*NAVIGATION BAR*/
 header {
     background-color: black;
     height: 69px;
@@ -22,13 +29,41 @@ header {
 header a {
     color: seashell;
     font-size: 22px;
-    font-family: Helvetica, sans-serif;
     opacity: 0.9;
+    font-family: Helvetica, sans-serif;
 }
 .logo {
     margin-right: auto;
 }
 header img {
     height: 50px;
+    opacity: 0.9;
+}
+
+/*SECTION 1*/
+#section1 {
+    display: flex;
+    justify-content: center;
+}
+.big-image1 {
+    display: flex;
+    align-items: center;
+    background: url(images-and-videos/big-image1.jpg);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    height: 700px;
+    width: 1200px;
+}
+.our-mission {
+    flex-grow: 1;
+
+    padding: 0;
+    margin: 0;
+    background-color: black;
+
+}
+.our-mission * {
+    margin: 15px;
     opacity: 0.9;
 }
